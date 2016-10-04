@@ -6,8 +6,9 @@
     "pretest": "",
     "test": "node node_modules/protractor/built/cli.js %%%PUT CONFIG FILE NAME HERE%%%"
   },
-
   "dependencies": {
+    "jasmine": "2.13",
+    "latest-version": "^2.0.0",
     "protractor": "^4.0.9"
   }
 }
