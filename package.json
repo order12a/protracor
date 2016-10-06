@@ -4,11 +4,14 @@
   "scripts": {
     "postinstall": "node node_modules/protractor/bin/webdriver-manager update",
     "pretest": "",
-    "test": "node node_modules/protractor/built/cli.js %%%PUT CONFIG FILE NAME HERE%%%"
+    "test": "node node_modules/protractor/built/cli.js conf.js"
   },
+
   "dependencies": {
-    "jasmine": "2.13",
-    "latest-version": "^2.0.0",
+    "jasmine": "^2.5.2",
     "protractor": "^4.0.9"
-  }
+  },
+   "compilerOptions": {
+        "target": "ES6"
+    }
 }
