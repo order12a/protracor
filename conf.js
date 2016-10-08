@@ -6,5 +6,6 @@ exports.config = {
     capabilities: {
         'browserName': 'chrome'
     },
+    baseUrl: 'https://soundcloud-ngrx.herokuapp.com/',
     useAllAngular2AppRoots: true
 }
